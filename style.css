@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+:root{
+    --roxoFundo: rgb(95, 7, 167);
+    --azulClaro: #92d5eb;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    /* background: linear-gradient( rgb(95, 7, 167), rgb(88, 130, 248)); */
+    background-color: var(--roxoFundo);
+}
+main{
+    background-color: white;
+    border-radius: 7px;
+    margin: auto;
+    width: 60vw;
+    height: 80vh;
+    margin-top: 70px;
+
+}
+main h1{
+    margin: 5px;
+    text-align: center;
+    font-size: 1.7em;
+}
+main p{
+    text-align: justify;
+    font-size: 0.8em;
+    margin: 7px;
+    margin-bottom: 20px;
+
+}
+main > div > img{
+    background-size: cover;
+    width: 60vw;
+    height: 30vh;
+    background-position: center center;
+    border-radius: 5px 5px 0px 0px;
+
+}
+div.caixa_label{
+    background-color: var(--roxoFundo);
+    padding: 5px;
+    margin: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 6vh;
+}
+
+div > label > span{
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+input#iemail, #isenha{
+    width: 45vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 0px;
+    background-color: lightblue;
+    position: relative;
+    left: 15px;
+    top:3px;
+    text-align: center;
+}
+
+input.butao{
+    height: 7vh;
+    width: 50vw;
+    position:relative;
+    left:5vw;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid var(--azulClaro);
+    border-radius: 6px;
+    color: var(--azulClaro);
+}
+
+input.butao:hover{
+    background-color: var(--azulClaro);
+    color: white;
+}
