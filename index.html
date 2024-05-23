@@ -3,38 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <title>Projeto Login</title>
 </head>
 <body>
+
     <main>
 
          
-            <div>
-                <img src="imagens/pexels-giantasparagus-19784516.jpg" alt="predio">
+            <div id="imagem">
+                
             </div>
 
-        <h1>Login</h1>
-        <p>
-            Seja- Bem-Vindo&#40;a&#41; novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente    
-        </p>
-        <div class="caixa_label">
+        <section id="login">
+            <h1>Login</h1>
+            <p>
+                Seja- Bem-Vindo&#40;a&#41; novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente
+            </p>
+        </section>
+        <div class="caixa_label" id="label_email">
             <label for="cadastro.php">
                 <span id="boneco" class="material-icons">person</span>
-                <input type="email" name="email" id="iemail" placeholder="exemplo@mail.com" autocomplete="email">
-            
+                <input type="email" name="email" id="iemail" placeholder="exemplo@mail.com" autocomplete="email">        
             </label>
         </div>
-        <div class="caixa_label">
+        <div class="caixa_label" id="label_senha">
             <label for="cadastro.php">
                 <span id="boneco" class="material-icons">vpn_key</span>
                 <input type="password" name="senha" id="isenha" placeholder="sua senha" >
             </label>
         </div>
-        <div>
-            <input class="butao" type="submit" value="Entrar"> <br>
-            <input class="butao" type="button" value="Esqueci a senha">
+        <div id="botoes">
+            <input id="botao_enviar" class="butao" type="submit" value="Entrar"> <br>
+            <input id="botao_esc" class="butao" type="button" value="Esqueci a senha">      
         </div>
 
     </main>

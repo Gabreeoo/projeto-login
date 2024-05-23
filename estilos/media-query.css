@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    body{
+        background: linear-gradient( rgb(95, 7, 167), rgb(88, 130, 248));;
+    }
+    main{
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width:90vw;
+        height: 60vh;
+        position: absolute;
+    }
+    section#login{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 67%;
+        top: 20%;
+        width: 50vw;
+    }
+    div#imagem{
+        height: 60vh;
+        width:30vw;
+        border-radius: 5px 0px 0px 5px;
+    }
+    div.caixa_label{
+        width: 51vw;
+    }
+    div#label_email{
+        position: absolute;
+        top: 30%;
+        left: 37%;
+    }
+    div#label_senha{
+        position: absolute;
+        top: 45%;
+        left: 37%;
+    }
+    div#botoes{
+        position:absolute;
+        top: 60%;
+        left: 33%;
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    body{
+        background: linear-gradient( rgb(95, 7, 167), rgb(88, 130, 248));
+    }
+    main{
+        width: 80vw;
+        height: 60vh;
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.479);
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    div#imagem{
+        height: 60vh;
+        width: 40vw;
+        position: relative;
+        left: 50%;
+        border-radius: 0px 5px 5px 0px;
+    }
+    section#login{
+        position: absolute;
+        top: 5%;
+        left: 3%;
+        width: 35vw;
+    }
+    div.caixa_label{ 
+        width: 35vw;
+
+    }
+    div#label_email{
+      position: absolute;
+      top: 30%;
+      left: 2%; 
+    }
+    div#label_senha{
+        position: absolute;
+        top:45%;
+        left: 2%;
+    }
+    input#iemail, #isenha{
+        width: 31vw;
+    }
+    div#botoes{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 75%;
+        left: 19%;
+    }
+    input.butao{
+        width: 35vw;
+    }
+}
