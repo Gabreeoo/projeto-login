@@ -81,7 +81,7 @@ div.campo > input{
     width: 80%;
     border-radius: 5px;
     border: none;
-    background-color: #8d8d92;
+    background-color: var(--cor2);
 
     transform: translateY(-10px);
     text-align: center;
@@ -106,6 +106,13 @@ form > div > a#botao{
     height: 40px;
     border-radius: 5px;
     text-align: center;
+    color: var(--cor5);
+    text-decoration: none;
+}
+
+form > div > a#botao > span{
+    font-size: 1.3em;
+    margin-top: 6px;
 }
 
 form > div > a#botao:hover{
