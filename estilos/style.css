@@ -38,6 +38,9 @@ section#login{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.623);
     background-color: var(--cor3);
     border-radius: 10px;
+
+    transition: width 0.3s, height 0.3s ;
+    transition-timing-function: ease;
     
 }
 section#login > div#imagem{
@@ -78,12 +81,12 @@ div.campo > span{
 
 div.campo > input{
     height: 80%;
-    width: 80%;
+    width: 85%;
     border-radius: 5px;
     border: none;
     background-color: var(--cor2);
 
-    transform: translateY(-10px);
+    transform: translate(-3px,-10px);
     text-align: center;
 
 }
